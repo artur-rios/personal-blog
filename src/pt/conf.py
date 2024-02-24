@@ -1,7 +1,7 @@
 # -- Build Options ----------------------------------------------------
 
-ablog_doctrees = '../build/pt/.doctrees'
-ablog_website = '../build/pt/_website'
+ablog_doctrees = '../../build/pt/.doctrees'
+ablog_website = '../../build/pt/_website'
 
 # -- Blog Options ----------------------------------------------------
 
