@@ -1,0 +1,40 @@
+/* Theme overrides */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--pst-color-text-muted);
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+/* Profile Sidebar */
+.profile-info {
+  margin: 1em auto;
+  max-width: 220px;
+}
+
+div.profile-pic {
+  margin-top: 1em;
+}
+
+div.profile-pic img {
+  border-radius: 500px;
+  width: 80%;
+  max-width: 190px;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile-name {
+  font-size: 1.5em;
+}
+
+.profile-titles {
+  font-size: 0.9em;
+  font-weight: bold;
+}
