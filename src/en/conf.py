@@ -5,7 +5,7 @@ ablog_website = '../../build/en/_website'
 
 # -- Blog Options ----------------------------------------------------
 
-blog_baseurl = 'https://artur-rios.com'
+blog_baseurl = 'https://www.techcraftsman.blog'
 blog_feed_fulltext = True
 blog_path = 'blog'
 blog_post_pattern = 'blog/*/*'
@@ -32,6 +32,7 @@ html_sidebars = {
 # -- Options for HTML output ----------------------------------------------
 
 html_css_files = ['css/custom.css']
+html_js_files = ["js/custom.js"]
 html_favicon = '../_static/images/favicon.png'
 html_file_suffix = None
 html_search_language = 'en'
@@ -60,6 +61,7 @@ html_theme_options = {
             'icon': 'fa-brands fa-linkedin',
         },
     ],
+    'navbar_end': ["navbar-icon-links", 'btn-location-pt'],
 }
 
 fontawesome_included = True
