@@ -1,8 +1,10 @@
 # The Tech Craftsman
 
-Um blog pelo desenvolvedor brasileiro Artur Rios
+Um blog escrito pelo desenvolvedor de software brasileiro Artur Rios
 
-Em construção
+Com exceção das bibliotecas referenciadas no rodapé, 100% do blog é desenvolvido por mim, assim como o conteúdo postado  
+
+Todas as opiniões emitidas são minhas, e não representam outras pessoas ou instituições
 
 ## Postagens recentes
 
