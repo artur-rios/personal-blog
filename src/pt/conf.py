@@ -61,7 +61,7 @@ html_theme_options = {
             'icon': 'fa-brands fa-linkedin',
         },
     ],
-    'navbar_end': ["navbar-icon-links", 'btn-location-en'],
+    'navbar_end': ['theme-switcher', 'navbar-icon-links', 'btn-location-en'],
 }
 
 fontawesome_included = True
