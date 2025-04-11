@@ -28,7 +28,7 @@ pushd %~dp0\src\%serve_lang%
 echo Serving %serve_lang% version on local environment...
 echo:
 
-ablog serve
+ablog serve -n
 
 popd
 

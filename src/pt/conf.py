@@ -48,7 +48,7 @@ html_use_index = True
 html_theme = 'pydata_sphinx_theme'
 
 html_theme_options = {
-    'search_bar_text': 'Pequise neste site...',
+    'search_bar_text': 'Pesquise neste site...',
     'icon_links': [
         {
             'name': 'GitHub',
@@ -60,6 +60,9 @@ html_theme_options = {
             'url': 'https://www.linkedin.com/in/artur-rios',
             'icon': 'fa-brands fa-linkedin',
         },
+    ],
+    "external_links": [
+        {"name": "Homepage", "url": "https://www.artur-rios.tech?lang=pt"},
     ],
     'navbar_end': ['theme-switcher', 'navbar-icon-links', 'btn-location-en'],
 }

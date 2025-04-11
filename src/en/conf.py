@@ -61,6 +61,9 @@ html_theme_options = {
             'icon': 'fa-brands fa-linkedin',
         },
     ],
+    "external_links": [
+        {"name": "Homepage", "url": "https://www.artur-rios.tech?lang=en"},
+    ],
     'navbar_end': ['theme-switcher', 'navbar-icon-links', 'btn-location-pt'],
 }
 

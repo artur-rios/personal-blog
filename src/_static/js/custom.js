@@ -7,8 +7,8 @@ function changeToLocalization(localizationCode) {
   const urlProtocol = "https://";
 
   const localizations = [
-    { code: "en", domain: "www.techcraftsman.blog" },
-    { code: "pt", domain: "pt.techcraftsman.blog" },
+    { code: "en", domain: "blog.artur-rios.tech" },
+    { code: "pt", domain: "ptblog.artur-rios.tech" },
   ];
 
   const localizationDomain = localizations.find(

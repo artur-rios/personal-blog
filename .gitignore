@@ -3,3 +3,6 @@ __pycache__
 
 # Distribution
 build/
+
+# JetBrains IDEs
+.idea/
