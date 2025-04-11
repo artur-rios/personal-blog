@@ -1,6 +1,6 @@
 # The Tech Craftsman
 
-This is the repository with the source code of my personal blog, called ["The Tech Craftsman"](https://www.techcraftsman.blog).
+This is the repository with the source code of my personal blog, called ["The Tech Craftsman"](https://blog.artur-rios.tech).
 
 ## Tech stack
 
@@ -45,10 +45,10 @@ All technologies used on this blog are free and open source
  ┃ ┃ ┣ 📜profile.jpg  
  ┃ ┃ ┗ 📜pt-br.png  
  ┃ ┗ 📂js  
- ┃ ┃ ┗ 📜custom.js  
+ ┃ ┃ ┗ 📜custom.js
 
-There's three main folders on the src. These are "en", where the source files for the English version of the blog are found, the "pt", where you can find the files for the portuguese version and, the _static, where the static files used on both versions are.
-The static files include, custom css, JavaScript code and images. Each of the blog version source folders, contains a "blog" folder, where the blog posts are stored, organized by year and month of publication, a "_templates" folder with html snippets used accross the blog, "About"and "Index" pages, and the configuration file.
+There's three main folders on the src. These are "en", where the source files for the English version of the blog are found, the "pt", where you can find the files for the portuguese version and, the \_static, where the static files used on both versions are.
+The static files include, custom css, JavaScript code and images. Each of the blog version source folders, contains a "blog" folder, where the blog posts are stored, organized by year and month of publication, a "\_templates" folder with html snippets used accross the blog, "About"and "Index" pages, and the configuration file.
 
 ## Configuration
 
