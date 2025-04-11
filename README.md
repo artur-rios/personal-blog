@@ -48,7 +48,7 @@ All technologies used on this blog are free and open source
  ┃ ┃ ┗ 📜custom.js
 
 There's three main folders on the src. These are "en", where the source files for the English version of the blog are found, the "pt", where you can find the files for the portuguese version and, the \_static, where the static files used on both versions are.
-The static files include, custom css, JavaScript code and images. Each of the blog version source folders, contains a "blog" folder, where the blog posts are stored, organized by year and month of publication, a "\_templates" folder with html snippets used accross the blog, "About"and "Index" pages, and the configuration file.
+The static files include, custom css, JavaScript code and images. Each of the blog version source folders, contains a "blog" folder, where the blog posts are stored, organized by year and month of publication, a "\_templates" folder with html snippets used accross the blog, "About" and "Index" pages, and the configuration file.
 
 ## Configuration
 
@@ -66,7 +66,7 @@ Go to the project root folder and run `./make.bat` to build the blog. The build 
 
 ## Test
 
-After building you can run the build locally. On the root folder, run the command `./serve.bat <blog version>`. Your default browser will open with the blog version you choose, running under `http://localhost:8000`. If not version is specified, the default version (en) will run.
+After building you can run the build locally. On the root folder, run the command `./serve.bat <blog version>`. Open your browser on `http://localhost:8000` to visualize the version you choose. If no version is specified, the default version (en) will run.
 
 ### Test example
 
