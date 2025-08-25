@@ -1,11 +1,11 @@
 home:
-  image: "images/home-img.jpg"
+  image: "images/profile.jpg"
   greetings: "Welcome!"
   text: "A blog by the Brazilian software developer Artur Rios"
 side:
   home:
     - content: "Check out the source code on GitHub"
-      imagePath: "images/profile.jpg"
+      imagePath: "images/gh_source.png"
       imageHref: "https://github.com/artur-rios/personal-blog"
       imageWidth: "100%"
   single:
