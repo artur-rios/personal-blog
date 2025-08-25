@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on The Tech Craftsman</title>
-    <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on The Tech Craftsman</description>
+    <title>Personal on The Tech Craftsman</title>
+    <link>//localhost:1313/tags/personal/</link>
+    <description>Recent content in Personal on The Tech Craftsman</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started</title>
       <link>//localhost:1313/posts/2024-02-23_hello-world/</link>
