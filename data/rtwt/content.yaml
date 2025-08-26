@@ -1,24 +1,26 @@
 en:
   home:
-    image: "/images/artur-rios-profile.jpg"
+    imageDark: "/images/logo-black.png"
+    imageLight: "/images/logo-white.png"
     imageWidth: "200px"
     greetings: "Welcome!"
     text: "A blog by the Brazilian software developer Artur Rios"
   side:
     home:
-      - content: "Check out the source code on GitHub"
+      - content: "Check out the source code"
         imagePath: "/images/gh_source.png"
         imageHref: "https://github.com/artur-rios/personal-blog"
         imageWidth: "100%"
     single:
       - title: "Blog post"
-      - content: "Check out the source code on GitHub"
+      - content: "Check out the source code"
         imagePath: "/images/gh_source.png"
         imageHref: "https://github.com/artur-rios/personal-blog"
         imageWidth: "100%"
 pt:
   home:
-    image: "/images/artur-rios-profile.jpg"
+    imageDark: "/images/logo-black.png"
+    imageLight: "/images/logo-white.png"
     imageWidth: "200px"
     greetings: "Bem-vindo!"
     text: "Um blog do desenvolvedor brasileiro Artur Rios"
