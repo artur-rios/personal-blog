@@ -1,5 +1,5 @@
 home:
-  image: "images/profile.jpg"
+  image: "images/artur-rios-profile.jpg"
   greetings: "Welcome!"
   text: "A blog by the Brazilian software developer Artur Rios"
 side:
