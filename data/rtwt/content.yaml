@@ -1,5 +1,6 @@
 home:
   image: "images/artur-rios-profile.jpg"
+  imageWidth: "200px"
   greetings: "Welcome!"
   text: "A blog by the Brazilian software developer Artur Rios"
 side:
@@ -9,5 +10,8 @@ side:
       imageHref: "https://github.com/artur-rios/personal-blog"
       imageWidth: "100%"
   single:
-    - title: "Static Content"
-      content: "Single pages (a.k.a. blog posts) can also have static content like so!"
+    - title: "Blog post"
+    - content: "Check out the source code on GitHub"
+      imagePath: "../../images/gh_source.png"
+      imageHref: "https://github.com/artur-rios/personal-blog"
+      imageWidth: "100%"

@@ -3,8 +3,8 @@ title = 'Getting Started'
 date = '2024-02-23'
 tags = ['personal']
 topics = ['personal']
-featured = true
 weight = 1
+enableComments = true
 +++
 
 # Hello World
