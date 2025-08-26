@@ -1,8 +1,6 @@
 title = 'The Tech Craftsman'
 theme = 'rusty-typewriter'
 themesdir = 'themes'
-
-languageCode = 'en-US'
 enableRobotsTXT = true
 
 [params]
@@ -22,15 +20,69 @@ series = 'series'
 [params.author]
 name = 'Artur Rios'
 
-[[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
-weight = 1
+defaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    contentDir = 'content/english'
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 10
 
-[[menus.main]]
-name = 'About'
-pageRef = '/about.md'
-weight = 2
+    [[languages.en.menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 1
+
+    [[languages.en.menus.main]]
+    name = 'About'
+    pageRef = '/about.md'
+    weight = 2
+
+    [[languages.en.menus.main]]
+    name = 'GitHub'
+    url = 'https://github.com/artur-rios'
+    weight = 3
+
+    [[languages.en.menus.main]]
+    name = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/artur-rios'
+    weight = 4
+
+    [[languages.en.menus.main]]
+    name = 'Português'
+    url = '/pt'
+    weight = 99
+
+  [languages.pt]
+    contentDir = 'content/portuguese'
+    languageCode = 'pt-BR'
+    languageName = 'Português'
+    weight = 20
+
+    [[languages.pt.menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 1
+
+    [[languages.pt.menus.main]]
+    name = 'Sobre'
+    pageRef = '/about.md'
+    weight = 2
+
+    [[languages.pt.menus.main]]
+    name = 'GitHub'
+    url = 'https://github.com/artur-rios'
+    weight = 3
+
+    [[languages.pt.menus.main]]
+    name = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/artur-rios'
+    weight = 4
+
+    [[languages.pt.menus.main]]
+    name = 'English'
+    url = '/en'
+    weight = 99
 
 # build search index ================
 [outputFormats]

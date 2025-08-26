@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Tech Craftsman</title>
+    <link>//localhost:1313/pt/</link>
+    <description>Recent content on The Tech Craftsman</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Mon, 24 Mar 2025 23:00:00 -0300</lastBuildDate>
+    <atom:link href="//localhost:1313/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Começando</title>
+      <link>//localhost:1313/pt/posts/2024-02-23_hello-world/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/pt/posts/2024-02-23_hello-world/</guid>
+      <description>&lt;h1 id=&#34;olá-mundo&#34;&gt;Olá Mundo&lt;/h1&gt;&#xA;&lt;p&gt;Saudações a todos lendo isso. Este é o primeiro post desde blog, e gostaria de começar dizendo o porquê eu decidi começar um blog e o que quero compartilhar aqui.&lt;/p&gt;&#xA;&lt;p&gt;A principal razão na verdade é muito simples: eu gosto de escrever. Na página inicial e na página &amp;ldquo;Sobre&amp;rdquo; há uma barra lateral (se você está lendo isso numa tela de dispositivo móvel, tem que clicar no ícone do canto superior esquerdo para ver), e abaixo da minha foto de perfil há alguns títulos que brevemente descrevem o que eu faço. Sim, eu trabalho com desenvolvimento de software e estou estudando ciência de dados, mas além disso eu decidi colocar &amp;ldquo;Escritor&amp;rdquo; lá. E isso não siginifica que sou um escritor profissional ou alguma coisa perto disso. Eu não ganho dinheiro pra escrever qualquer coisa fora do meu trabalho como desenvolvedor de software. E não tenho (ainda) nenhum artigo acadêmico publicado, não segui este caminho durante a faculdade. Mas escrever para mim sempre foi algum tipo de escape. Fui uma pessoa bem introvertida desde o ensino fundamental até o ensino médio. Eu costumava escrever meus sentimentos num caderno e mantê-los lá. Claro, eu cresci e me tornei mais aberto ao diálogo, comunicação é uma habilidade bem importante e tive que desenvolvê-la de qualquer forma. Agora que trabalho como desenvolvedor, parte do meu trabalho inclui escrever algumas outras coisas além de código, como documentação não apenas técnica mas também com relação ao negócio com o qual eu lido. Para resumir, escrever é algo que eu gosto e uma habilidade que vale a pena desenvolver. Criar um blog para postar alguns dos meus textos é uma motivação e talvez alguém ache algum texto interessante ou útil. Se você já deu uma lida sobre quem eu sou, já descobriu que sou brasileiro. Tentarei postar todos os textos aqui tanto em inglês quanto em português. Como já disse antes não sou escritor profissional e escrever aqui é uma forma de praticar. Hoje em dia temos várias ferramentas que geram texto, mas eu escrevo tudo aqui com minhas próprias mãos. Se você encontrar algum erro gramatical, ou se achar que o texto está esquisito ou mal estruturado, fique a vontade para comentar, desse jeito posso melhorar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>//localhost:1313/pt/search/</link>
+      <pubDate>Mon, 24 Mar 2025 23:00:00 -0300</pubDate>
+      <guid>//localhost:1313/pt/search/</guid>
+      <description>&lt;h1 id=&#34;search&#34;&gt;Search&lt;/h1&gt;&#xA;&lt;p&gt;Aqui você pode buscar por páginas indexáveis, como publicações e similares. Também há suporte para o parâmetro de URL &amp;lsquo;q&amp;rsquo;, que realiza a busca automaticamente ao carregar a página.&lt;/p&gt;&#xA;&lt;p class=&#34;hidden&#34;&gt;É necessário ativar o Javascript&lt;/p&gt;&#xD;&#xA;&lt;p class=&#34;search-loading hidden&#34;&gt;Carregando...&lt;/p&gt;&#xD;&#xA;&#xD;&#xA;&lt;form id=&#34;search-form&#34; class=&#34;search-form&#34; action=&#34;#&#34; method=&#34;post&#34; accept-charset=&#34;UTF-8&#34; role=&#34;search&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;search-bar&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;query&#34; class=&#34;hidden&#34;&gt;&lt;/label&gt;&#xD;&#xA;    &lt;input id=&#34;query&#34; class=&#34;search-text&#34; type=&#34;text&#34; placeholder=&#34;Pesquisar...&#34;/&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/form&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;search-results&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;template&gt;&#xD;&#xA;  &lt;article class=&#34;search-result list-view&#34;&gt;&#xD;&#xA;    &lt;header&gt;&#xD;&#xA;      &lt;h2 class=&#34;title&#34;&gt;&lt;a href=&#34;#&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;      &lt;div class=&#34;submitted&#34;&gt;&#xD;&#xA;        &lt;time class=&#34;created-date&#34;&gt;&lt;/time&gt;&#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &lt;/header&gt;&#xD;&#xA;    &lt;p class=&#34;content&#34;&gt;&lt;/p&gt;&#xD;&#xA;  &lt;/article&gt;&#xD;&#xA;&lt;/template&gt;</description>
+    </item>
+    <item>
+      <title>Sobre</title>
+      <link>//localhost:1313/pt/about/</link>
+      <pubDate>Mon, 24 Mar 2025 23:00:00 -0300</pubDate>
+      <guid>//localhost:1313/pt/about/</guid>
+      <description>&lt;h1 id=&#34;sobre&#34;&gt;Sobre&lt;/h1&gt;&#xA;&lt;p&gt;Meu primeiro contato com programação de fato foi durante o curso técnico em mecatrônica que fiz durante o ensino médio, período em que ainda estava decidindo o que ia fazer da vida. Dentre as várias disciplinas do curso, as aulas de automação que envolveram, dentre outras coisas, solucionar problemas com simples programas escritos em C e compilados em microcontroladores fizeram meus olhos brilharem.&lt;/p&gt;&#xA;&lt;p&gt;Antes, durante o ensino fundamental já tinha tido algum contato com HTML e CSS em cursinhos de informática que eram comuns na época, e já havia desenvolvido simples páginas web.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
