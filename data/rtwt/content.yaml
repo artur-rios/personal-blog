@@ -6,17 +6,9 @@ en:
     greetings: "Welcome!"
     text: "A blog by the Brazilian software developer Artur Rios"
   side:
-    home:
-      - content: "Check out the source code"
-        imagePath: "/images/gh_source.png"
-        imageHref: "https://github.com/artur-rios/personal-blog"
-        imageWidth: "100%"
+    home: []
     single:
       - title: "Blog post"
-      - content: "Check out the source code"
-        imagePath: "/images/gh_source.png"
-        imageHref: "https://github.com/artur-rios/personal-blog"
-        imageWidth: "100%"
 pt:
   home:
     imageDark: "/images/logo-black.png"
@@ -25,14 +17,6 @@ pt:
     greetings: "Bem-vindo!"
     text: "Um blog do desenvolvedor brasileiro Artur Rios"
   side:
-    home:
-      - content: "Veja o código fonte no GitHub"
-        imagePath: "/images/gh_source.png"
-        imageHref: "https://github.com/artur-rios/personal-blog"
-        imageWidth: "100%"
+    home: []
     single:
       - title: "Post do blog"
-      - content: "Veja o código fonte no GitHub"
-        imagePath: "/images/gh_source.png"
-        imageHref: "https://github.com/artur-rios/personal-blog"
-        imageWidth: "100%"
