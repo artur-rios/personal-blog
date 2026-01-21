@@ -51,11 +51,6 @@ defaultContentLanguage = "en"
     url = 'https://www.linkedin.com/in/artur-rios'
     weight = 4
 
-    [[languages.en.menus.main]]
-    name = 'Português'
-    url = '/pt'
-    weight = 99
-
   [languages.pt]
     contentDir = 'content/portuguese'
     languageCode = 'pt-BR'
@@ -81,11 +76,6 @@ defaultContentLanguage = "en"
     name = 'LinkedIn'
     url = 'https://www.linkedin.com/in/artur-rios'
     weight = 4
-
-    [[languages.pt.menus.main]]
-    name = 'English'
-    url = '/en'
-    weight = 99
 
 # build search index ================
 [outputFormats]

@@ -1,0 +1,23 @@
+{{- if hugo.IsMultilingual -}}
+  {{- $translations := .Translations -}}
+  {{- range site.Languages -}}
+    {{- if ne .Lang site.Language.Lang -}}
+      {{- $targetLang := .Lang -}}
+      {{- $targetLangName := .LanguageName -}}
+      {{- $translationFound := false -}}
+      {{- range $translations -}}
+        {{- if eq .Lang $targetLang -}}
+          {{- $translationFound = true -}}
+          <div class="nav-item">
+            <a href="{{ .RelPermalink }}">{{ $targetLangName }}</a>
+          </div>
+        {{- end -}}
+      {{- end -}}
+      {{- if not $translationFound -}}
+        <div class="nav-item">
+          <a href="{{ absURL (printf "/%s/" $targetLang) }}">{{ $targetLangName }}</a>
+        </div>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
