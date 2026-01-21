@@ -1,4 +1,4 @@
-title = 'The Tech Craftsman'
+title = 'Artur Rios'
 theme = 'rusty-typewriter'
 themesdir = 'themes'
 enableRobotsTXT = true
@@ -8,6 +8,9 @@ enableComments=true
 giscusTheme="preferred_color_scheme"
 
 # rtwt = Rusty Typewriter Theme
+[params.rtwt.home]
+showAuthorImg = false
+
 [params.rtwt.side.home]
 taxonomies = ['tags','series']
 countTaxonomy = 3

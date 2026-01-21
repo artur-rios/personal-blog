@@ -1,0 +1,38 @@
+{{- partial "search_bar.html" -}} {{/* Recent Posts Section */}} {{-
+$recentPosts := first 5 (where site.RegularPages "Section" "posts") -}} {{- if
+$recentPosts -}}
+<div class="side-content">
+  <h3>{{- i18n "recent_posts" -}}</h3>
+  <ul style="list-style: none; padding-left: 0">
+    {{- range $recentPosts -}}
+    <li style="margin-bottom: 0.5rem">
+      <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a>
+      <time class="text-sm dim" style="display: block">
+        {{- dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date -}}
+      </time>
+    </li>
+    {{- end -}}
+  </ul>
+</div>
+{{- end -}} {{/* Taxonomies (Tags) Section */}} {{- range $filter :=
+site.Params.rtwt.side.home.taxonomies -}} {{- with (index site.Taxonomies
+$filter) -}}
+<h3>{{- $filter | title -}}</h3>
+<ul class="taxonomy-list">
+  {{- $limit := site.Params.rtwt.side.home.countTaxonomy }} {{- $i := $limit -}}
+  {{- range (sort . ".Count" "desc") -}} {{ $i = sub $i 1 }} {{- if lt $i 0
+  -}}{{- break -}}{{- end -}}
+  <li>
+    <a class="tag" href="{{- .Page.Permalink -}}">
+      #{{- .Page.Title | lower -}}&nbsp<span class="text-sm dim"
+        >{{ .Count }}</span
+      >
+    </a>
+  </li>
+  {{- end -}} {{- if (gt (len .) $limit) -}}
+  <li>
+    <a href="{{- absURL $filter -}}">{{- i18n "see_all" -}}</a>
+  </li>
+  {{- end -}}
+</ul>
+{{- end -}} {{- end -}}
