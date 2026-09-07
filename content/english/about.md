@@ -5,8 +5,6 @@ type = 'blank'
 featured = true
 +++
 
-# About
-
 My first real contact with programming was during a mechatronics technical course I took in high school, when I was still figuring out where my life was heading. Among all the disciplines, the automation classes stood out—solving problems using simple C programs compiled into microcontrollers made my eyes shine.
 
 Before that, during middle school, I had some exposure to HTML and CSS through small computer courses that were common back in the day, where I built simple webpages.

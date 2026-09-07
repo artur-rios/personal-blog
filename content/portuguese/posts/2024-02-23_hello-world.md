@@ -1,13 +1,11 @@
 +++
-title = 'Começando'
+title = 'Olá Mundo'
 date = '2024-02-23'
 tags = ['personal']
 topics = ['personal']
 weight = 1
 enableComments = true
 +++
-
-# Olá Mundo
 
 Saudações a todos lendo isso. Este é o primeiro post desde blog, e gostaria de começar dizendo o porquê eu decidi começar um blog e o que quero compartilhar aqui.
 

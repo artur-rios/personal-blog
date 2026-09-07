@@ -7,8 +7,6 @@ weight = 1
 enableComments = true
 +++
 
-# Disciplina
-
 Bom, já faz um tempo desde o meu último post aqui. Assim como todo mundo, eu andei ocupado com as coisas do dia a dia. Não é que eu não tivesse tempo nenhum para escrever aqui, mas eu não estava a fim até agora. E, apesar de eu ter tanta coisa técnica para escrever, hoje eu quero falar sobre um assunto que é um desafio para mim a vida inteira. Hoje o assunto é disciplina e por que eu acho que ela é importante.
 
 Primeiro, preciso falar um pouco sobre mim. Eu sempre fui alguém com coisas aleatórias passando pela cabeça. Sério, é difícil para mim me concentrar em qualquer coisa. Me dá um trabalho enorme focar a mente no momento presente, em uma única tarefa que eu preciso fazer. Então, para mim, disciplina é uma necessidade. Algo que eu **preciso** desenvolver, senão eu vou acabar não realizando nada.

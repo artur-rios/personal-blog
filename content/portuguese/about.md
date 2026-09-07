@@ -5,8 +5,6 @@ type = 'blank'
 featured = true
 +++
 
-# Sobre
-
 Meu primeiro contato com programação de fato foi durante o curso técnico em mecatrônica que fiz durante o ensino médio, período em que ainda estava decidindo o que ia fazer da vida. Dentre as várias disciplinas do curso, as aulas de automação que envolveram, dentre outras coisas, solucionar problemas com simples programas escritos em C e compilados em microcontroladores fizeram meus olhos brilharem.
 
 Antes, durante o ensino fundamental já tinha tido algum contato com HTML e CSS em cursinhos de informática que eram comuns na época, e já havia desenvolvido simples páginas web.

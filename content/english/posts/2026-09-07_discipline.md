@@ -7,8 +7,6 @@ weight = 1
 enableComments = true
 +++
 
-# Discipline
-
 Well, it's been a while since my last post here. Just like everyone else, I have been busy with the day-to-day stuff. It's not like I did not have any time to write here, but I didn't feel like it until now. And, though I have so much to write about technical stuff, today I want to write about a topic that has been a challenge for me my whole life. Today the subject is discipline and why I think it's important.
 
 First, I need to talk a little about me. I've always been someone with random things going on in my head. Seriously, it's hard for me to concentrate on anything. It takes such an effort for me to focus my mind on the present moment, on just one task I need to do. So, for me, discipline is a need. Something I **must** develop, otherwise I will end up accomplishing nothing at all.

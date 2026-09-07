@@ -1,13 +1,11 @@
 +++
-title = 'Getting Started'
+title = 'Hello World'
 date = '2024-02-23'
 tags = ['personal']
 topics = ['personal']
 weight = 1
 enableComments = true
 +++
-
-# Hello World
 
 Greetings to everyone reading this. This is the very first post of this blog, and I'll start by explaining why I decided to start one and what I want to share here.
 
