@@ -1,9 +1,9 @@
 {{- if hugo.IsMultilingual -}}
   {{- $translations := .Translations -}}
-  {{- range site.Languages -}}
-    {{- if ne .Lang site.Language.Lang -}}
-      {{- $targetLang := .Lang -}}
-      {{- $targetLangName := .LanguageName -}}
+  {{- range hugo.Sites -}}
+    {{- if ne .Language.Lang site.Language.Lang -}}
+      {{- $targetLang := .Language.Lang -}}
+      {{- $targetLangName := .Language.Label -}}
       {{- $translationFound := false -}}
       {{- range $translations -}}
         {{- if eq .Lang $targetLang -}}
