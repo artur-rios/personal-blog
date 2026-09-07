@@ -6,7 +6,7 @@
       <img
         class="side-profile-img"
         src="{{- $avatar.RelPermalink -}}"
-        srcset="{{- $avatar.RelPermalink -}} 1x, {{ $avatar2x.RelPermalink }} 2x"
+        srcset="{{ $avatar.RelPermalink }} 1x, {{ $avatar2x.RelPermalink }} 2x"
         width="{{- $avatar.Width -}}"
         height="{{- $avatar.Height -}}"
         alt="{{- site.Params.author.name | default site.Title -}}"
