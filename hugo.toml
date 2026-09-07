@@ -3,6 +3,10 @@ theme = 'rusty-typewriter'
 themesdir = 'themes'
 enableRobotsTXT = true
 
+[module]
+  [module.hugoVersion]
+    min = "0.158.0"
+
 [params]
 enableComments=true
 giscusTheme="preferred_color_scheme"
