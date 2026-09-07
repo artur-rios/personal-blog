@@ -1,6 +1,6 @@
 +++
 title = 'Discipline'
-date = '2026-07-09'
+date = '2026-09-07'
 tags = ['personal']
 topics = ['personal']
 weight = 1
