@@ -1,4 +1,4 @@
-{{- partial "search_bar.html" -}} {{/* Recent Posts Section */}} {{-
+{{- partial "side/profile.html" . -}} {{- partial "search_bar.html" -}} {{/* Recent Posts Section */}} {{-
 $recentPosts := first 5 (where site.RegularPages "Section" "posts") -}} {{- if
 $recentPosts -}}
 <div class="side-content">
