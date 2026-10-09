@@ -1,6 +1,6 @@
 +++
 title = 'Manifesto'
-date = '2026-10-24T09:00:00-03:00'
+date = '2026-10-09T09:00:00-03:00'
 type = 'blank'
 featured = true
 +++
