@@ -46,14 +46,19 @@ defaultContentLanguage = "en"
     weight = 2
 
     [[languages.en.menus.main]]
+    name = 'Manifesto'
+    pageRef = '/manifesto.md'
+    weight = 3
+
+    [[languages.en.menus.main]]
     name = 'GitHub'
     url = 'https://github.com/artur-rios'
-    weight = 3
+    weight = 4
 
     [[languages.en.menus.main]]
     name = 'LinkedIn'
     url = 'https://www.linkedin.com/in/artur-rios'
-    weight = 4
+    weight = 5
 
   [languages.pt]
     contentDir = 'content/portuguese'
@@ -72,14 +77,19 @@ defaultContentLanguage = "en"
     weight = 2
 
     [[languages.pt.menus.main]]
+    name = 'Manifesto'
+    pageRef = '/manifesto.md'
+    weight = 3
+
+    [[languages.pt.menus.main]]
     name = 'GitHub'
     url = 'https://github.com/artur-rios'
-    weight = 3
+    weight = 4
 
     [[languages.pt.menus.main]]
     name = 'LinkedIn'
     url = 'https://www.linkedin.com/in/artur-rios'
-    weight = 4
+    weight = 5
 
 # build search index ================
 [outputFormats]
