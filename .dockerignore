@@ -1,0 +1,12 @@
+# Not part of the site's source: the history, the old build output, and the theme the Dockerfile fetches itself.
+.git
+.github
+.claude
+.idea
+.hugo_build.lock
+.env*
+public
+resources/_gen
+themes/rusty-typewriter
+Dockerfile
+.dockerignore
