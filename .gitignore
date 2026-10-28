@@ -1,4 +1,7 @@
 .idea
 public
-.vercel
 .env*
+
+# The rusty-typewriter theme: the Dockerfile fetches it for the image (its RUSTY_TYPEWRITER_COMMIT); for hugo on
+# your machine, clone it here at that commit (README.md, "Running it locally").
+/themes/rusty-typewriter/
