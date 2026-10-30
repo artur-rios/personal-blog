@@ -1,17 +1,8 @@
 # Artur Rios - Personal Blog
 
-> [!NOTE]
-> This is the real, open-source code of personal-blog. Its home is Forgejo, at
-> https://git.techcraftsmen.net/artur-rios/personal-blog; the copy on GitHub is a read-only mirror, for viewing only, and
-> its issues and pull requests are not followed. If you want to contribute, email me at
-> arturdev@duck.com.
-
 This is the repository of my personal blog, published at **<https://blog.artur-rios.tech/>**. Built with
 [Hugo](https://gohugo.io/), using the theme [Rusty Typewriter](https://github.com/artur-rios/hugo-theme-rusty-typewriter).  
 The comment section is powered by [Giscus](https://giscus.app/).
-
-> **Where this lives:** the repository is at <https://git.techcraftsmen.net/artur-rios/personal-blog>. The GitHub
-> repository is a read-only mirror of it.
 
 ## Running it locally
 
@@ -41,3 +32,8 @@ docker run --rm -p 8080:8080 personal-blog
 ```
 
 To use another theme commit, set `RUSTY_TYPEWRITER_COMMIT` in the `Dockerfile`.
+
+## Contributing
+
+The GitHub repository is a read-only mirror for the real, open-source code of personal-blog. Its home is Forgejo, at
+https://git.techcraftsmen.net/artur-rios/personal-blog. If you want to contribute, e-mail me at arturdev@duck.com.
