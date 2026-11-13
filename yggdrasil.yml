@@ -1,0 +1,19 @@
+# What Jenkins checks for this repository, read by the pipeline of the yggdrasil installation that deploys it
+# (yggdrasil's docs/catalog.md, "Repository pipeline file", has every field). It is data, never code: images
+# (pinned by version and digest, which Renovate keeps up to date), commands, globs and the names of Jenkins
+# credentials. The commands are the scripts under ci/, which run from the repository's root, so you can run them on
+# your machine too. The blog is the application personal-blog: main deploys production (its Dockerfile builds the
+# image).
+#
+# Check it where the catalog is, in the yggdrasil checkout:
+#   python3 scripts/pipeline_config.py describe personal-blog <this repository's checkout>
+
+checks:
+  lint:                                  # markdownlint-cli2 over the posts, pages and readme (.markdownlint-cli2.jsonc)
+    image: node:26.13.1-alpine3.24@sha256:6bd9ab43c0ec0190ca7b2d193906cb8b7edf6e7f4afa43ddeccd6452710bffb5
+    run: sh ci/lint.sh
+
+  build:                                 # the Dockerfile builds, as a deploy builds it (build only: no push, no run)
+    image: docker:29.9.2-cli@sha256:5e6baf67325a79f64ed3bed6863954d5e05d0f3d4e57cbdb14809346814bbfdb
+    run: sh ci/build.sh
+    docker: true                         # docker build, on the CI engine
