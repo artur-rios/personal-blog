@@ -36,4 +36,4 @@ To use another theme commit, set `RUSTY_TYPEWRITER_COMMIT` in the `Dockerfile`.
 ## Contributing
 
 The GitHub repository is a read-only mirror for the real, open-source code of personal-blog. Its home is Forgejo, at
-https://git.techcraftsmen.net/artur-rios/personal-blog. If you want to contribute, e-mail me at arturdev@duck.com.
+<https://git.techcraftsmen.net/artur-rios/personal-blog>. If you want to contribute, e-mail me at <arturdev@duck.com>.

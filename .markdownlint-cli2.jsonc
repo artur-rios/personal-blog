@@ -1,0 +1,10 @@
+// markdownlint-cli2's settings for ci/lint.sh: markdownlint's default rules, less the two that are about how prose is
+// written rather than how Markdown is: line length (a paragraph is one line, which Hugo renders the same) and
+// descriptive link text.
+{
+  "config": {
+    "MD013": false,
+    "MD059": false
+  },
+  "ignores": ["node_modules/**", "public/**", "resources/**", "themes/**"]
+}
